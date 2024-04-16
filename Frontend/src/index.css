@@ -1,0 +1,126 @@
+h1 {
+    text-align: center;
+    color: rgb(32, 0, 0);
+    font-family: "Lobster Two", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    margin: 0;
+    text-decoration: underline;
+}
+
+.go-back {
+    width: 90%;
+    display: flex;
+    justify-content: end;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(32, 0, 0);
+    font-size: 40px;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    height: 40px;
+    font-size: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.add {
+    display: block;
+    width: 150px;
+    margin: 30px auto;
+}
+
+.add-grocery {
+    width: 30%;
+    margin: 30px auto;
+    padding: 0 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.entry {
+    margin: 40px 0;
+    display: flex;
+}
+
+.entry label {
+    display: block;
+    width: 40%;
+}
+
+.entry input {
+    width: 50%;
+}
+
+.submit {
+    margin: 0 auto;
+}
+
+.update {
+    width: 40%;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 50px;
+}
+
+.for-id {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.btn {
+    width: 20%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.refresh {
+    width: 100px;
+    height: 30px;
+}
+
+/* 
+.lobster-two-regular {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lobster-two-regular-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .lobster-two-bold {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .lobster-two-bold-italic {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  } */
+  
