@@ -71,9 +71,6 @@ const Grocery = () => {
         <Link to="/add">
           <button className="add">Add New Grocery</button>
         </Link>
-        <button className="refresh" onClick={getGroceries}>
-          Refresh
-        </button>
       </div>
     </>
   );
