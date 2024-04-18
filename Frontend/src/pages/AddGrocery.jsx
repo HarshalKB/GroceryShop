@@ -41,9 +41,12 @@ const AddGrocery = () => {
     e.preventDefault();
     if (validateForm()) {
       addGrocery(grocery)
-        .then((res) => console.log(res.data))
+        .then((res) => {
+          console.log(res.data);
+          navigate("/");
+        })
         .catch((error) => console.log(error));
-      navigate("/");
+      
     } else {
       alert("All inputs are required.");
     }
